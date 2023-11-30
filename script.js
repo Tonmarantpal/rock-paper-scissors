@@ -17,3 +17,9 @@ function playRound() {
         return `You lose! ${computerChoice} beats ${userChoice}!`
     }
 }
+
+function game(n) {
+    for (i = 0; i < n; i++) {
+        console.log(playRound())
+    }
+}
